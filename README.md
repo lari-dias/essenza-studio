@@ -1,26 +1,85 @@
-﻿# Essenza Studio
+# 🌿 Essenza Studio
 
-Landing page conceitual de estética e bem-estar, desenvolvida para o portfólio comercial da Lari Dev.
+**Sua beleza, no seu tempo.**
 
-## Executar
+O Essenza Studio é um projeto conceitual de website para o segmento de estética e bem-estar, desenvolvido com foco em uma experiência digital elegante, acolhedora e responsiva.
 
-- `npm install` (somente se as dependências ainda não estiverem presentes)
-- `npm run dev`
-- `npm run build`
-- `npm run preview` para servir o build
+O objetivo é demonstrar como um site profissional pode valorizar a identidade de uma marca, apresentar seus serviços e proporcionar uma navegação intuitiva.
 
-No PowerShell com scripts bloqueados, use `npm.cmd` em lugar de `npm`.
+## ✨ Funcionalidades
 
-## Estrutura
+- Layout responsivo para desktop, tablet e dispositivos móveis.
+- Navegação entre seções.
+- Apresentação de tratamentos estéticos.
+- Planos de cuidados personalizados.
+- Seção de diferenciais.
+- Informações de contato e atendimento.
+- Animações suaves e elementos visuais interativos.
+- Imagens otimizadas para melhor carregamento.
 
-`App.tsx` compõe as seções. `src/sections` contém Hero, About, Treatments, CarePlans, Testimonials (experiência de atendimento, sem avaliações fictícias) e Contact. `src/components/layout` contém Header e Footer. `src/components/ui` contém componentes reutilizáveis. `src/data/site.ts` centraliza navegação, experiências, imagens e canais de contato.
+## 💻 Tecnologias utilizadas
 
-## Antes da publicação
+- **React** — construção de interfaces.
+- **TypeScript** — tipagem e organização do código.
+- **Vite** — ambiente de desenvolvimento e build.
+- **Tailwind CSS** — estilização.
+- **Lucide React** — biblioteca de ícones.
+- **Motion** — animações e transições.
 
-Em `src/data/site.ts`, configure `site.whatsappNumber` com DDI, DDD e número, somente dígitos, ajuste `whatsappMessage` e preencha `instagramUrl` com a URL completa do perfil. Os campos ficam vazios por padrão: a interface informa que o agendamento e o Instagram estão indisponíveis, sem direcionar visitantes para contatos inventados.
+## 🚀 Como executar o projeto
 
-As cinco fotografias editoriais são referências externas do Unsplash, centralizadas em `images` e `treatments`. Revise as fotos e os direitos de uso para a publicação final. Para substituí-las, adicione arquivos otimizados em `src/assets`, importe-os em `site.ts` e atualize também os textos alternativos. As referências atuais usam largura e qualidade controladas e variantes responsivas; as imagens abaixo da primeira dobra carregam sob demanda. As imagens externas dependem da disponibilidade do provedor.
+Clone o repositório:
 
-Revise as descrições de cuidados para o serviço efetivamente oferecido caso o conceito seja adaptado para uma clínica real. Configure domínio, URL canônica e imagem de compartilhamento no `index.html` quando os destinos finais existirem. Não há endereço, horários, avaliações, preços ou resultados clínicos inventados.
+```bash
+git clone https://github.com/lari-dias/essenza-studio.git
+```
 
-O projeto utiliza fontes do sistema, sem dependência de um serviço externo de fontes. As animações respeitam a preferência por movimento reduzido. O menu mobile fecha ao selecionar links, pressionar Escape, clicar fora ou migrar para a largura desktop.
+Entre na pasta:
+
+```bash
+cd essenza-studio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+Para gerar a versão de produção:
+
+```bash
+npm run build
+```
+
+## 🌐 Demonstração
+
+O projeto está publicado na Vercel.
+
+**Link:** adicione aqui o endereço definitivo do site.
+
+## 🎨 Sobre o desenvolvimento
+
+O projeto foi desenvolvido com componentes reutilizáveis, separação de responsabilidades e atenção à responsividade, acessibilidade e experiência do usuário.
+
+A identidade visual combina tons suaves, tipografia editorial e imagens que transmitem tranquilidade, cuidado e sofisticação.
+
+## 👩‍💻 Desenvolvido por
+
+**Larissa Dias | Lari Dev**
+
+Desenvolvedora Full Stack.
+
+- [GitHub](https://github.com/lari-dias)
+- [LinkedIn](https://www.linkedin.com/in/alarissa-dias/)
+- [Instagram](https://www.instagram.com/dev.lari/)
+
+---
+
+**Nota:** O Essenza Studio é um projeto fictício, desenvolvido para fins de portfólio. Não representa um estabelecimento real e não oferece agendamentos ou serviços comerciais.
