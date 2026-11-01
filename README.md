@@ -62,7 +62,7 @@ npm run build
 
 O projeto está publicado na Vercel.
 
-**Link:** adicione aqui o endereço definitivo do site.
+**Link:** essenzastudio.vercel.app/
 
 ## 🎨 Sobre o desenvolvimento
 
