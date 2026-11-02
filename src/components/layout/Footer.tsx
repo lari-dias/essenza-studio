@@ -52,7 +52,6 @@ export function Footer() {
         <div className="footer-bottom">
           <span>
             © {new Date().getFullYear()} Essenza Studio.{' '}
-            Projeto conceitual.
           </span>
 
           <span>

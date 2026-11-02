@@ -3,7 +3,7 @@ import heroImage from '../assets/images/hero.webp'
 import recepcaoImage from '../assets/images/recepcao.webp'
 import limpezaPeleImage from '../assets/images/limpeza-pele.webp'
 import skinboosterImage from '../assets/images/skinbooster.webp'
-import modelagemCorporalImage from '../assets/images/modelagem-corporal.webp'
+import modelagemCorporalImage from '../assets/images/modelagem-corporal.png'
 import tratamentoFacialImage from '../assets/images/tratamento-facial.webp'
 import spaImage from '../assets/images/spa.webp'
 
@@ -39,7 +39,7 @@ export const images = {
   },
   modelagemCorporal: {
     src: modelagemCorporalImage,
-    alt: 'Procedimento estético corporal',
+    alt: 'Cuidados estéticos corporais',
   },
   tratamentoFacial: {
     src: tratamentoFacialImage,
@@ -82,8 +82,7 @@ export const carePlans = [
   {
     title: 'Essencial',
     subtitle: 'O primeiro passo para se cuidar.',
-    description:
-      'Para quem deseja começar uma rotina de autocuidado.',
+    description: 'Para quem deseja começar uma rotina de autocuidado.',
     items: [
       'Avaliação personalizada',
       'Limpeza de pele',
@@ -93,8 +92,7 @@ export const carePlans = [
   {
     title: 'Equilíbrio',
     subtitle: 'Seu bem-estar em primeiro lugar.',
-    description:
-      'Para quem busca cuidados contínuos e personalizados.',
+    description: 'Para quem busca cuidados contínuos e personalizados.',
     items: [
       'Avaliação e plano personalizado',
       'Acompanhamento contínuo',
@@ -104,8 +102,7 @@ export const carePlans = [
   {
     title: 'Completo',
     subtitle: 'Uma experiência de cuidado integral.',
-    description:
-      'Para quem deseja um acompanhamento mais abrangente.',
+    description: 'Para quem deseja um acompanhamento mais abrangente.',
     items: [
       'Avaliação e plano completo',
       'Tratamentos personalizados',
@@ -117,17 +114,14 @@ export const carePlans = [
 export const careSteps = [
   {
     title: 'Primeiro, ouvir',
-    text:
-      'Seu momento, suas preferências e suas expectativas abrem a conversa.',
+    text: 'Seu momento, suas preferências e suas expectativas abrem a conversa.',
   },
   {
     title: 'Depois, personalizar',
-    text:
-      'As possibilidades de cuidado são escolhidas a partir da avaliação individual.',
+    text: 'As possibilidades de cuidado são escolhidas a partir da avaliação individual.',
   },
   {
     title: 'Sempre, respeitar',
-    text:
-      'Cada etapa considera seu conforto, suas escolhas e o seu tempo.',
+    text: 'Cada etapa considera seu conforto, suas escolhas e o seu tempo.',
   },
 ]

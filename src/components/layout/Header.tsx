@@ -1,6 +1,6 @@
 
 import { useEffect, useRef, useState } from 'react'
-import { ArrowRight, Menu, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { navigation } from '../../data/site'
 import { Brand } from '../ui/Brand'
 import { Button } from '../ui/Button'
@@ -68,11 +68,6 @@ export function Header() {
 
           <Button href="#tratamentos" className="header-cta">
             Conheça nossos cuidados
-            <ArrowRight
-              size={18}
-              strokeWidth={1.8}
-              aria-hidden="true"
-            />
           </Button>
 
           <button

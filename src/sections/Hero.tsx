@@ -1,7 +1,6 @@
 ﻿
 import { EditorialImage } from '../components/ui/EditorialImage'
 import {
-  ArrowRight,
   Heart,
   Leaf,
   Sparkles,
@@ -53,11 +52,6 @@ export function Hero() {
 
           <Button href="#tratamentos">
             Conheça nossos cuidados
-            <ArrowRight
-              size={19}
-              strokeWidth={1.7}
-              aria-hidden="true"
-            />
           </Button>
         </Reveal>
 
